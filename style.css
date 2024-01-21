@@ -1,0 +1,85 @@
+/* styles.css */
+
+.repository {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 400px;
+    height: max-content;
+}
+#repositories{
+	    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.repository h4 {
+    margin-top: 0;
+	    color: blue;
+}
+.pagination-number{
+	    display: flex;
+    justify-content: center;
+}
+
+.repository p {
+    margin-bottom: 0;
+}
+
+/* Additional styling for the loader */
+#loader {
+    margin-top: 20px;
+}
+
+/* Optional styling for pagination */
+#pagination {
+    margin-top: 20px;
+	    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pagination-arrow,
+.pagination-number{
+	    border: 1px solid darkgray;
+    width: 25px;
+    text-align: center;
+	color:'blue';
+}
+.user-avatar{
+	    width: 18%;
+    border-radius: 50%;
+}
+.user-info{
+	    display: flex;
+    gap: 12px;
+}
+.repo-h4,
+.pagination-link {
+	    color: blue;
+}
+.active {
+	color:white;
+	background-color:blue;
+}
+#perPageSelect{
+    width: 9%;
+}
+.perPageDiv {
+    display: flex;
+    flex-direction: row;
+}
+.language {
+    width: max-content;
+    color: white;
+    background-color: blue;
+}
+.perPageDiv {
+    margin-bottom: 11px;
+    gap:2%
+}
+.linkDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
